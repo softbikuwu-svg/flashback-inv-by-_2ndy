@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "flashbackinv",
+  "version": "${version}",
+  "name": "Flashback Inventory Addon",
+  "description": "Records the open inventory/container GUI of the recording player into Flashback replays and shows it when you spectate that player in first person.",
+  "authors": [ "Fispubg" ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.flashbackinv.FlashbackInvClient" ]
+  },
+  "accessWidener": "flashbackinv.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "flashback": "*"
+  }
+}
